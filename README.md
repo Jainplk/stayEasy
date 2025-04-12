@@ -16,7 +16,7 @@ StayEasy is a full-stack MERN (MongoDB, Express, React, Node.js) web application
 - Clean UI with React
 
 ## 💻 Tech Stack
-- **Frontend:** React, vanila CSS
+- **Frontend:** React js, vanila CSS
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB, Mongoose
 - **Authentication:** JWT (JSON Web Token)
@@ -48,7 +48,7 @@ npm install
 Create a .env file in the backend folder:
 
 ```bash
-  PORT=5000
+  PORT=your_port
   MONGO_URL=your_mongodb_connection_string
   JWT_SECRET=your_jwt_secret_key
   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
@@ -76,15 +76,20 @@ Frontend:
 ```
 ## 📸 Screenshots
 
-- ![Home Page](https://github.com/user-attachments/assets/961df3cb-0afb-4f45-9be9-f253301f883d)
+- Home Page
+ ![Home Page](https://github.com/user-attachments/assets/3da7f5f6-475c-44d4-886b-d64e104e34d3)
 
-- ![Listing Detail Page](https://github.com/user-attachments/assets/b7802e54-b9b0-474e-b937-b49e77298ede)
+- Show Listing in Detail
+ ![Listing Detail Page](https://github.com/user-attachments/assets/4bc453ea-9c16-4827-b42a-a302e9651f71)
 
-- ![Sign up Page](https://github.com/user-attachments/assets/48452e78-d1d2-481c-a84d-b22ef45e05c6)
+- Sign up 
+![Sign up Page](https://github.com/user-attachments/assets/8e06ff9a-05c0-4c98-8760-f57a98de3d0a)
 
-- ![Message Interface(Guests)](https://github.com/user-attachments/assets/8bc283a6-60ee-45f9-a3b1-d38838e8b215)
+- Message Interface(Guests)
+![Message Interface(Guests)](https://github.com/user-attachments/assets/58b35679-0388-4921-b6d4-0ab89e3e4159)
 
-- ![Chat Page(Host)](https://github.com/user-attachments/assets/862b40d4-7f5f-41b2-b0a2-f4c15e4c4450)
+- Chat Page(Host)
+![Chat Page(Host)](https://github.com/user-attachments/assets/800d935a-0507-464f-9d59-fac1015404ee)
 
 ## 📌 Future Enhancements
 - Booking and Payment integration (e.g. Razorpay or Stripe)
@@ -92,9 +97,8 @@ Frontend:
 - Admin panel for hosts
 
 ## 🌐 Deployed Project
-- Frontend: View Frontend on Vercel
+- **Live Demo of StayEasy** : [View Frontend on Vercel](https://stay-easy-one.vercel.app)
 
-- Backend:  View Backend API on Render
 
 ## 🙋‍♂️ Authors
 
